@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.U.L.E. - Datenschutzerklärung</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #8B4513, #D2691E);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        header p {
+            opacity: 0.9;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #8B4513;
+            margin-bottom: 16px;
+            font-size: 1.3em;
+        }
+        .card p, .card li {
+            color: #555;
+            margin-bottom: 12px;
+        }
+        .card ul {
+            padding-left: 20px;
+        }
+        .card li {
+            margin-bottom: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #888;
+            font-size: 0.9em;
+        }
+        a {
+            color: #8B4513;
+        }
+        .impressum {
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>M.U.L.E.</h1>
+        <p>Klassisches Strategiespiel</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>1. Datenerfassung</h2>
+            <p>Diese App erfasst folgende Daten:</p>
+            <ul>
+                <li>Spielername (lokal auf Ihrem Gerät gespeichert)</li>
+                <li>Spieleinstellungen und Spielfortschritt (lokal gespeichert)</li>
+                <li>Bei Online-Multiplayer: temporäre Spieldaten während einer Spielsitzung</li>
+            </ul>
+            <p>Es ist keine Registrierung oder Anmeldung erforderlich.</p>
+        </div>
+
+        <div class="card">
+            <h2>2. Multiplayer-Funktionen</h2>
+            <p>Die App bietet lokalen und Online-Multiplayer:</p>
+            <ul>
+                <li><strong>Lokaler Multiplayer (WiFi Direct/Bluetooth):</strong> Die App benötigt Zugriff auf WLAN und Bluetooth, um Geräte in der Nähe zu finden und eine direkte Verbindung herzustellen. Der Standortzugriff wird von Android für WiFi Direct benötigt, es werden jedoch keine Standortdaten gespeichert oder übertragen.</li>
+                <li><strong>Online-Multiplayer:</strong> Für Online-Spiele werden temporäre Spieldaten über Firebase (Google) synchronisiert. Diese Daten werden nach Spielende gelöscht.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. Berechtigungen</h2>
+            <p>Die App benötigt folgende Berechtigungen:</p>
+            <ul>
+                <li><strong>Internet:</strong> Für Online-Multiplayer</li>
+                <li><strong>WLAN-Status:</strong> Für lokalen Multiplayer via WiFi Direct</li>
+                <li><strong>Bluetooth:</strong> Für lokalen Multiplayer via Bluetooth</li>
+                <li><strong>Standort:</strong> Technisch erforderlich für WiFi Direct (Android-Systemanforderung), wird nicht für Ortung verwendet</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>4. Datenspeicherung</h2>
+            <p>Spielstände und Einstellungen werden ausschließlich lokal auf Ihrem Gerät gespeichert. Bei Online-Multiplayer werden temporäre Spieldaten während einer aktiven Spielsitzung in Google Firebase gespeichert und nach Spielende automatisch gelöscht.</p>
+        </div>
+
+        <div class="card">
+            <h2>5. Datenverarbeitung</h2>
+            <p>Ihre Daten werden ausschließlich zur Bereitstellung der Spielfunktionen verwendet. Es erfolgt keine Weitergabe an Dritte zu Werbezwecken. Die App enthält keine Werbung.</p>
+        </div>
+
+        <div class="card">
+            <h2>6. Ihre Rechte</h2>
+            <p>Sie können alle lokal gespeicherten Daten jederzeit löschen, indem Sie die App-Daten in den Android-Einstellungen löschen oder die App deinstallieren. Für Fragen kontaktieren Sie uns unter <a href="mailto:info@pixel-pirates.com">info@pixel-pirates.com</a>.</p>
+        </div>
+
+        <div class="card">
+            <h2>7. Cookies & Tracking</h2>
+            <p>Diese App verwendet keine Cookies oder Tracking-Mechanismen zu Werbezwecken.</p>
+        </div>
+
+        <div class="card impressum">
+            <h2>Impressum</h2>
+            <p><strong>Angaben gemäß § 5 TMG:</strong></p>
+            <p>
+                Andreas Baberowski-Adelmann<br>
+                In den Eschmatten 1<br>
+                79117 Freiburg<br>
+                Deutschland
+            </p>
+            <p style="margin-top: 16px;"><strong>Kontakt:</strong><br>
+            E-Mail: <a href="mailto:info@pixel-pirates.com">info@pixel-pirates.com</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pixel-Pirates. Alle Rechte vorbehalten.</p>
+        <p>Version 1.0</p>
+    </footer>
+</body>
+</html>
